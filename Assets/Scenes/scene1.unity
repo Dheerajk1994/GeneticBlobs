@@ -3545,7 +3545,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 0}
-  geneSize: 10
+  geneSize: 100
   BlobPrefab: {fileID: 6284760455312102645, guid: 71a2cce9c05dc904280cd1e9709a2d72,
     type: 3}
   startingPos: {fileID: 166322097}

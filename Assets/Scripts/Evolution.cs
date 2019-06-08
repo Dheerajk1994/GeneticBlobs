@@ -85,19 +85,19 @@ public class Evolution : MonoBehaviour
             b.CreateFromGivenGene(newGene, mutationChance, mutationAmount, startingPos.position);
         }
 
-        List<Blob> blobsToRemove = new List<Blob>();
-        int blobsToExterminateStartPos = blobs.Count - (int)(blobs.Count * 0.25f);
-
-        for(int i = blobsToExterminateStartPos; i < blobs.Count; ++i)
-        {
-            blobsToRemove.Add(tempBlobs[i]);
-        }
-
-        foreach (Blob b in blobsToRemove)
-        {
-            blobs.Remove(b);
-            Destroy(b.gameObject);
-        }
+        //List<Blob> blobsToRemove = new List<Blob>();
+        //int blobsToExterminateStartPos = blobs.Count - (int)(blobs.Count * 0.25f);
+        //
+        //for(int i = blobsToExterminateStartPos; i < blobs.Count; ++i)
+        //{
+        //    blobsToRemove.Add(tempBlobs[i]);
+        //}
+        //
+        //foreach (Blob b in blobsToRemove)
+        //{
+        //    blobs.Remove(b);
+        //    Destroy(b.gameObject);
+        //}
 
         currentGeneIndex = 0;
         currentStepInterval = 0;
